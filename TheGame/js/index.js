@@ -180,7 +180,7 @@ function startSetting(){
   //   })
   // })
   $(".head").css({"top":snake.hy+"px","border-radius":"0px 0px 10px 10px"})
-  $(".dot").css({left:(Math.floor(Math.random()*100)*10),top:(Math.floor(Math.random()*50)*10)});
+  $(".dot").css({left:(Math.floor(Math.random()*100)*10),top:(Math.floor(Math.random()*70)*10)});
   $(".item"+snake.bx.length).hide()
   $(".lose").hide();
 

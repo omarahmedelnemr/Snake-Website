@@ -18,9 +18,9 @@ body{
 .game-frame{
     background-color: #000000ba /*#e2e2e2*/;
     position: relative;
-    width: 1230px;
+    width: 100%;
     /* box-shadow: -15px 16px 20px 0px; */
-    height: 500px;
+    height: 700px;
     border: 1px solid black;
     overflow: hidden;
     margin-bottom: 35px;
