@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Tab Title -->
+        <title>The Snake Game</title>
+
+        <!-- Import the Font Awesome Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
+        <!-- Adding Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- our Style CSS File -->
+        <link rel="stylesheet" href="./styles/index.css" />
+
+
+    </head>
+    <body>
+        
+        <section id="introSection">
+            <img src="./content/LOGO BW.png"/>
+            <a href="#homepage"><i class="fa-solid fa-chevron-down"></i></a>
+        </section>
+        <div id="navbar">
+            <div class="logoImg">
+                <img src="./content/LOGO BW.png"/>
+            </div>
+            <div class="pages">
+                <a href="#home">Home</a>
+                <a href="#characters">Characters</a>
+                <a href="#howtoplay">How To Play</a>
+                <a href="#aboutus">About us</a>
+            </div>
+
+        </div>
+        <section id="homepage">
+            <div class="textPart">
+                <h1 class="title">The Snake Game</h1>
+                <h3>
+                    New Characters, Vibrant Graphics, Endless Fun.
+                </h3>
+                <p>Experience the nostalgic thrill of the classic snake game with a modern twist. Featuring new characters, vibrant graphics, and exciting challenges. Get ready to slither through levels like never before</p>
+                <div class="startButton">
+                    <button>Start Play</button>
+                </div>
+            </div>
+            <div class="sliderPart">
+                <i class="fa-solid fa-chevron-left" onclick="goBack()"></i>
+                <div class="sliderImages">
+                    <img src="./content/Luna.png" class="old"/>
+                    <img src="./content/Forest.png" class="active"/>
+                    <img src="./content/Cobalt.png" class="sub_active"/>
+                    <img src="./content/Lin.png" class="sub_sub_active"/>
+                </div>
+                <i class="fa-solid fa-chevron-right" onclick="goNext()"></i>
+            </div>
+
+        </section>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
