@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px;
+    background-size: cover; 
+    font-family: fantasy;
+    font-size: 20px;
+}
+.game{
+    padding: 10px 50px;
+}
+.begin{
+    width: 100%;
+    background-color: #0c1c35;
+}
+.game-frame{
+    background-color: #000000ba /*#e2e2e2*/;
+    position: relative;
+    width: 1230px;
+    /* box-shadow: -15px 16px 20px 0px; */
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    margin-bottom: 35px;
+}	
+.item,.head{
+	width: 10px;
+	height: 10px;
+	background-color: white/*red*/;
+	position: absolute;
+	border-radius: 100%
+	/*border:1px solid;*/
+}
+.head{
+	left: 0px;
+	background-color: green/*blue*/;
+}
+.score:before,.score2:before{
+	content: "Your Score : "
+}
+.best:before,.best2:before{
+	content: "Best Score : "
+}
+.dot{
+	width: 10px;
+	height: 10px;
+	background-color:#bf0b0b  /*yellow*/;
+	position: absolute;
+    border-radius: 100%;
+}
+.logo{
+	background-color: #c77f00;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 80%;
+    left: 72%;
+    height: 60px;
+    font-size: 30px;
+    font-family: fantasy;
+    line-height: 65px;
+    padding: 0 15px;
+    transition: all .5s;
+}
+.logo:hover{
+	background-color: #ffa300;
+}
+.logo p{
+	margin: 0;
+	padding: 0;
+}
+.lose{
+    color: #00e5ff;
+    background-color: #4169e1c7;
+    width: 25%;
+    border-radius: 30px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}
+
+.replay{
+    border: none;
+    background-color: #1bc1e4;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.replay:hover{
+    background-color: #00e7ff;
+}
+/*.begin img{
+    width: 100%;
+    height: 103%;
+}*/
