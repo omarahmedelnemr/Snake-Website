@@ -156,19 +156,21 @@ body::-webkit-scrollbar {
 #homepage .textPart .startButton{
     text-align: center;
 }
-#homepage .textPart .startButton button{
+#homepage .textPart .startButton .button{
     width: 220px;
     padding: 30px 20px;
     font-size: 20px;
     border-radius: 100px;
+    text-decoration: none;
     border: none;
     color: white;
     /* background-image: linear-gradient(45deg, var(--greenLightColor), var(--greenDarkColor)); */
     background-color: var(--greenLightColor);
     cursor: pointer;
     transition: 0.5s;
+    display: inline-block;
 }
-#homepage .textPart .startButton button:hover{
+#homepage .textPart .startButton .button:hover{
     background-color: var(--greenDarkColor);
 
 }
